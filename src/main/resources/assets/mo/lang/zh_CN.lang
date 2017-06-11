@@ -1,0 +1,482 @@
+##########################################################################################################
+# Items
+
+item.matter_scanner.name=物质扫描仪
+item.emergency_ration.name=应急营养单元
+item.phaser.name=超能相位枪
+item.battery.name=能量单元
+item.creative_battery.name=创造能量单元
+item.me_conversion_matrix.name=物质能转换矩阵
+item.isolinear_circuit.mk1.name=等线性电路Mk1
+item.isolinear_circuit.mk2.name=等线性电路Mk2
+item.isolinear_circuit.mk3.name=等线性电路Mk3
+item.isolinear_circuit.mk4.name=等线性电路Mk4
+item.upgrade.base.name=基础升级板
+item.h_compensator.name=海森堡补偿器
+item.integration_matrix.name=集成矩阵
+item.s_magnet.name=超导磁体
+item.matter_dust_refined.name=精炼物质粉尘
+item.matter_dust.name=物质粉尘
+item.matter_dust.details=放入循环仓中精炼
+item.machine_casing.name=机械铸件
+item.dilithium_crystal.name=双锂晶体
+item.tritanium_ingot.name=钛金锭
+item.tritanium_plate.name=钛金板
+item.tritanium_dust.name=钛金粉
+item.pattern_drive.name=模式存储单元
+item.pattern_drive.details=可存储2个物品模式
+item.earl_gray_tea.name=格雷伯爵茶
+item.romulan_ale.name=罗慕兰麦酒
+item.romulan_ale.details=原产自罗慕兰醇香醉人的酒饮料
+item.security_protocol.empty.name=安全协定
+item.security_protocol.claim.name=安全协定[设置]
+item.security_protocol.claim.description=设置机器
+item.security_protocol.access.name=安全协定[访问]
+item.security_protocol.access.description=允许访问已设置安全协定的机器
+item.security_protocol.remove.name=安全协定[清除]
+item.security_protocol.remove.description=移除机器安全设置
+item.security_protocol.invalid=安全协定无效
+item.tritanium_wrench.name=钛金扳手
+item.tritanium_wrench.details=安全装卸和旋转机器
+item.spacetime_equalizer.name=时空均衡器
+item.spacetime_equalizer.details=能够作为护胸装备并抵消重力异常
+item.rouge_android_part_head.name=机器人头部
+item.rouge_android_part_arms.name=机器人手部
+item.rouge_android_part_legs.name=机器人腿部
+item.rouge_android_part_chest.name=机器人躯干
+item.forcefield_emitter.name=力场发生器
+item.hc_battery.name=高能电池
+item.ship_factory.name=舰船工厂
+item.ship_factory.details=允许舰船的建造
+item.scout_ship.name=侦察飞船
+item.scout_ship.details=快速飞船, 用于侦察
+item.ship_colonizer.name=殖民飞船
+item.ship_colonizer.details=用于在抵达后建造基地以占领星球
+item.building_base.name=基地
+item.building_base.details=主建筑, 所有东西的前置需求
+item.android_pill_red.name=红色药丸
+item.android_pill_red.details=吃下红色药丸后你将无所畏惧
+item.android_pill_blue.name=蓝色药丸
+item.android_pill_blue.details=吃下蓝色药丸后你会一无所知的在床上醒来
+item.creative_pattern_drive.name=创造模式储存单元
+item.creative_pattern_drive.details=包含绝大多数可重组物品\n潜行右键重新加载
+item.network_flash_drive.name=网络闪存驱动器
+item.network_flash_drive.details=物质网络设备中的过滤器
+item.energy_pack.name=能量包
+item.energy_pack.details=用于快速充电\n让能量武器'重装弹药'
+item.phaser_rifle.name=相位来复枪
+item.transport_flash_drive.name=传送闪存驱动器
+item.transport_flash_drive.details=记录地点以便快速使用传送器
+item.matter_container.name=空物质仓
+item.matter_container_full.name=满物质仓
+item.tritanium_nugget.name=钛金粒
+item.tritanium_spine.name=钛金脊椎
+item.data_pad.name=便携数据仪
+
+item.upgrade.speed.name=速度升级
+item.upgrade.power.name=能耗升级
+item.upgrade.failsafe.name=故障保护升级
+item.upgrade.range.name=范围升级
+item.upgrade.power_storage.name=储能升级
+item.upgrade.hyper_speed.name=高级速度升级
+item.upgrade.matter_storage.name=物质存储升级
+
+item.weapon_module_color.name=颜色模块
+item.weapon_module_barrel.damage.name=双锂聚焦矩阵
+item.weapon_module_barrel.fire.name=高能燃烧弹
+item.weapon_module_barrel.explosion.name=爆裂电磁炮
+item.weapon_module_barrel.heal.name=再生转换器
+
+##########################################################################################################
+# Tile Entities
+
+//////////// Replicator ////////////
+tile.replicator.name=物质重组仓
+tile.replicator.config.volume.replicate=Replication Volume
+tile.replicator.config.particles.vent=Vent Particles
+tile.replicator.config.storage.matter=物质储存
+tile.replicator.config.storage.energy=能量储存
+tile.replicator.config.cost.replication.energy=Energy Cost per Matter
+tile.replicator.config.speed.replication=Speed per Matter
+tile.replicator.config.fail=失败几率
+tile.replicator.details=将等离子态物质重组为物品和方块
+tile.replicator_active.name=物质复制仪
+
+//////////// Decomposer ////////////
+tile.decomposer.name=物质分解仓
+tile.decomposer.details=将物品分解为等离子态物质
+tile.decomposer.config.storage.matter=物质储存
+tile.decomposer.config.storage.energy=能量储存
+tile.decomposer.config.speed.decompose=分解速度
+tile.decomposer.config.cost.decompose=分解消耗
+
+
+tile.matter_pipe.name=物质运输管道
+tile.matter_pipe.details=运输等离子态物质
+tile.network_pipe.name=物质网络线缆
+tile.network_pipe.details=将设备接入物质网络
+tile.network_router.name=物质网络路由器
+tile.network_router.details=用于访问机器或从一个子网络转换到另一个
+tile.network_switch.name=物质网络转换器
+tile.network_switch.details=用于连接机器并建立子网络
+tile.transporter.name=传送器
+tile.transporter.details=传送生物
+tile.matter_analyzer.name=物质分析仪
+tile.matter_analyzer.details=分析物品模式
+tile.dilithium_ore.name=双锂矿石
+tile.tritanium_ore.name=钛金矿石
+tile.tritanium_block.name=钛金块
+tile.heavy_matter_pipe.name=重型物质运输管道
+tile.heavy_matter_pipe.details=运输等离子态物质
+tile.holo_sign.name=全息显示板
+tile.force_glass.name=钛金玻璃
+tile.bounding_box.name=Bounding Block
+
+//////////// Pattern Storage ////////////
+tile.pattern_storage.name=模式存储仓
+tile.pattern_storage.details=存储物品模式，用于复制
+tile.pattern_storage.config.particles.vent=Vent Particles
+tile.pattern_storage.config.storage.energy=能量储存
+tile.pattern_storage.config.transfer.energy=能量传输速度
+
+tile.machine_hull.name=机械外壳
+tile.solar_panel.name=太阳能板
+tile.solar_panel.details=通过太阳能产生RF
+tile.weapon_station.name=武器装配台
+tile.weapon_station.details=用于武器升级和充能
+tile.microwave.name=微波炉
+tile.pattern_monitor.name=物质网络终端
+tile.pattern_monitor.details=用于管理复制任务
+tile.gravitational_anomaly.name=重力异常点
+tile.gravitational_stabilizer.name=重力稳定器
+tile.gravitational_stabilizer.details=用于减弱重力异常点的影响
+tile.matter_recycler.name=物质循环仓
+tile.matter_recycler.details=用于物品循环, 为分解做准备
+
+//////////// Fusion Reactor ////////////
+tile.fusion_reactor_controller.name=聚变反应堆控制器
+tile.fusion_reactor_controller.config.storage.energy=能量储存
+tile.fusion_reactor_controller.config.storage.matter=物质储存
+tile.fusion_reactor_controller.config.output.energy=能量输出
+tile.fusion_reactor_controller.config.drain.matter=物质消耗
+tile.fusion_reactor_controller.config.distance.anomaly=Max Anomaly Distance
+tile.fusion_reactor_controller.config.check.delay=Structure Check Delay
+tile.fusion_reactor_controller.details=聚变反应堆的主要控制装置
+tile.fusion_reactor_coil.name=聚变反应堆外围
+tile.fusion_reactor_coil.details=用于限定聚变反应堆内的粒子范围
+
+//////////// Android Station ////////////
+tile.android_station.name=机器人装配台
+tile.android_station.details=机器人升级管理
+tile.star_map.name=星图
+tile.star_map.details=用于星系管理
+tile.charging_station.name=充能台
+tile.charging_station.details=用于充能机器人
+container.replicator.name=重组仓
+machine.tooltip.matter=物质
+machine.tooltip.energy=充能
+
+entity.rogue_android.name=残暴机器人
+entity.failed_pig.name=实验失败的猪
+entity.failed_chicken.name=实验失败的鸡
+entity.failed_cow.name=实验失败的牛
+entity.failed_sheep.name=实验失败的羊
+entity.mad_scientist.name=疯狂科学家
+
+##########################################################################################################
+# Dialogs
+
+dialog.generic.quit.questions=下次再见.;我必须要走了.;我有急事要办.;再见.;告辞.;拜拜.
+dialog.generic.back.questions=别在意.;让我们聊些其他的吧.;关我什么事.
+dialog.generic.trade.questions=我想做个交易.;让我们做个交易吧.;让我看看你的货物.;你都卖些什么?;
+
+//////////// Mad Scientist ///////////////
+dialog.mad_scientist.convert.question=我有所有的机器人部件!
+dialog.mad_scientist.requirements.line=终于!<br>摆脱那具脆弱的肉体是一个明智的选择.<br>在开始之前, 唯一的问题就是我需要你给我带来一套机器人组件.
+dialog.mad_scientist.requirements.question=我想要成为一名机甲战士.
+dialog.mad_scientist.main.line.human=我不和人类打交道.;天哪! 简直无法直视. 你太脆弱了!;你还好么? 你看起来糟透了! 你是怎么在这具肉身坚持下来的?
+dialog.mad_scientist.main.line.android=啊 %1$s, 很高兴见到你! 来这有什么事么?;嘿. 你今天看起来棒极了!;看起来你的左眼好像有些错位了. 我很乐意帮你修复它.
+dialog.mad_scientist.undo.line=你为什么想要这么做? 唯一的办法就是吃掉一颗蓝色药丸. 你可以在地牢中找到它, 不过最好的办法是从别人手中买到. 我想我的车间里可能有一些. 我需要去查看一下.
+dialog.mad_scientist.undo.question=我如何逆转这一过程!
+dialog.mad_scientist.whatDidYouDo.line=你现在已经是机器人了! 你将不需要食物, 睡眠以及氧气. 你可以在机器人装配台为你自己升级一些实用的能力, 而且你将会看到并做到一些你无法想象的事情.
+dialog.mad_scientist.whatDidYouDo.question=你对我做了些什么?
+
+##########################################################################################################
+# Creative Panels
+itemGroup.tabMatterOverdrive=超能物质
+itemGroup.tabMatterOverdrive_modules=超能物质|模块
+itemGroup.tabMatterOverdrive_upgrades=超能物质|升级
+itemGroup.tabMatterOverdrive_food=超能物质|食物
+itemGroup.tabMatterOverdrive_ships=超能物质|舰船
+itemGroup.tabMatterOverdrive_buildings=超能物质|建筑
+
+##########################################################################################################
+# Upgrade Types
+upgradetype.Speed.name=时间
+upgradetype.PowerUsage.name=能源使用
+upgradetype.Output.name=输出
+upgradetype.SecondOutput.name=次级输出
+upgradetype.Fail.name=故障
+upgradetype.Range.name=范围
+upgradetype.PowerStorage.name=能量存储
+upgradetype.MatterStorage.name=物质存储
+
+##########################################################################################################
+# Weapon Stats
+weaponstat.0.name=伤害
+weaponstat.1.name=弹药
+weaponstat.2.name=眩晕时间
+weaponstat.3.name=范围
+weaponstat.4.name=火焰伤害
+weaponstat.5.name=方块破坏
+weaponstat.6.name=爆炸伤害
+weaponstat.7.name=射速
+weaponstat.8.name=治疗
+
+##########################################################################################################
+# GUI
+
+gui.replicator.name=物质重组仓
+gui.decomposer.name=物质分解仓
+gui.matter_analyzer.name=物质分析仪
+gui.network_router.name=网络路由器
+gui.pattern_storage.name=模式存储仓
+gui.solar_panel.name=太阳能板
+gui.pattern_monitor.name=网络终端
+gui.network_switch.name=网络转换器
+gui.recycler.name=物质循环仓
+gui.fusion_reactor.name=聚变反应堆
+gui.android_hud.transforming.line.0=启动系统
+gui.android_hud.transforming.line.1=构建神经通路
+gui.android_hud.transforming.line.2=进行神经网络配置
+gui.android_hud.transforming.line.3=安装驱动程序
+gui.android_hud.transforming.line.4=校准机械臂
+gui.android_hud.transforming.line.5=清除生物杂质
+gui.android_hud.transforming.line.final=转化进行中
+gui.hologram.access_denied=拒绝访问
+gui.tooltip.close_menu=关闭菜单
+gui.tooltip.open_menu=打开菜单
+gui.tooltip.close=关闭
+gui.tooltip.page.home=主界面
+gui.tooltip.page.configurations=配置界面
+gui.tooltip.page.upgrades=升级界面
+gui.tooltip.page.tasks=任务
+gui.tooltip.page.scan_info=扫描信息
+gui.tooltip.page.galaxy=银河系
+gui.tooltip.page.quadrant=象限
+gui.tooltip.page.star=行星系
+gui.tooltip.page.planet=行星
+gui.tooltip.page.planet_stats=行星状态
+gui.tooltip.button.refresh=刷新列表
+gui.tooltip.button.request=发送请求
+gui.tooltip.matter=物质
+gui.tooltip.matter.none=无
+gui.tooltip.energy.io=输入/输出
+gui.tooltip.requires=需要
+gui.tooltip.scout_button=派遣侦察飞船，搜寻行星并开始修建
+gui.tooltip.slot.bionic.head=头盔
+gui.tooltip.slot.bionic.arms=臂甲
+gui.tooltip.slot.bionic.legs=腿甲
+gui.tooltip.slot.bionic.chest=胸甲
+gui.tooltip.slot.bionic.other=其他
+gui.tooltip.slot.bionic.battery=电池
+gui.tooltip.slot.database=模式数据库
+gui.tooltip.slot.filter=网络过滤器
+gui.tooltip.slot.energy=RF能量
+gui.tooltip.slot.matter=物质
+gui.tooltip.slot.pattern_storage=模式存储
+gui.tooltip.slot.shielding=防护
+gui.tooltip.slot.upgrade=升级
+gui.tooltip.slot.recycle=可循环
+gui.tooltip.slot.weapon=武器
+gui.redstone_mode.high=高
+gui.redstone_mode.low=低
+gui.redstone_mode.disabled=禁用
+gui.config.redstone=红石
+gui.config.owner=拥有者
+gui.config.mnet.address=Address
+gui.label.button.save=保存
+gui.label.button.remove=删除
+gui.label.button.add=添加
+gui.label.button.reset=重置
+gui.label.button.scout=派遣侦察飞船
+gui.label.button.new=新建
+gui.label.button.import=进占
+gui.label.button.import.too_far=目的地太远
+gui.label.auto_line_size=Auto Line Size
+
+### GUI Tooltips ###
+gui.tooltip.starmap.no_ship_space=没有足够的舰船空间
+gui.tooltip.starmap.no_building_space=没有足够的建造空间
+gui.tooltip.starmap.no_ship_factory=无舰船工厂
+gui.tooltip.starmap.has_base=基地建造已经存在
+
+##########################################################################################################
+# Modules
+
+module.battery.name=能量模块
+module.color.name=颜色模块
+module.color.red=红色
+module.color.green=绿色
+module.color.lime_green=黄绿色
+module.color.brown=棕色
+module.color.pink=粉色
+module.color.blue=蓝色
+module.color.sky_blue=淡蓝色
+module.color.gold=金色
+module.color.black=黑色
+module.color.grey=灰色
+
+module.barrel.name=枪管模块
+module.sights.name=视野模块
+module.other.name=其他模块
+
+##########################################################################################################
+# Bioparts
+
+biopart.head.name=头部组件
+biopart.arms.name=手臂组件
+biopart.legs.name=腿部组件
+biopart.chest.name=胸部组件
+biopart.other.name=其他组件
+biopart.battery.name=能量单元
+
+##########################################################################################################
+# Biostats
+
+biotic_stat.teleport.name=末影传送
+biotic_stat.teleport.details=点击 '%1$s' 键进行短距离传送 /n/每次传送消耗 %2$s /n/需要一个输出超过 %2$s 的电池
+biotic_stat.nanobots.name=纳米机器人
+biotic_stat.nanobots.details=使用能量和等离子物质治疗伤口
+biotic_stat.nano_armor.name=纳米护甲
+biotic_stat.nano_armor.details=吸收 %1$s 的攻击伤害
+biotic_stat.floatation.name=气囊
+biotic_stat.floatation.details=能够浮在水面上
+biotic_stat.speed.name=超频
+biotic_stat.speed.details=移动速度提升 %1$s
+biotic_stat.high_jump.name=蓄力弹跳
+biotic_stat.high_jump.details=潜行时跳的更高 /n/每次弹跳消耗 %1$s /n/需要一个输出超过 %1$s 的电池
+biotic_stat.equalizer.name=时空均衡器
+biotic_stat.equalizer.details=内置时空均衡器 /n/用于抵消来自于 /n/重力异常点的影响
+biotic_stat.shield.name=粒子护盾
+biotic_stat.shield.details=减免弹射物伤害
+biotic_stat.attack.name=伤害增强
+biotic_stat.attack.details=攻击伤害提升 %1$s
+biotic_stat.cloak.name=隐形斗篷
+biotic_stat.cloak.details=允许玩家隐形. /n/激活时, 消耗 %1$s 每tick /n/需要一个输出超过 %1$s 的电池
+biotic_stat.nightvision.name=夜视
+biotic_stat.nightvision.details=允许玩家看穿黑暗. /n/激活时, 消耗 %1$s 每tick /n/需要一个输出超过 %1$s 的电池
+biotic_stat.minimap.name=小地图
+biotic_stat.minimap.details=在HUD上添加小地图
+
+##########################################################################################################
+# Deaths
+
+death.attack.phaser=%1$s 被 %2$s 分解掉了
+death.attack.phaser.item=%1$s 被 %2$s 使用 %3$s 分解掉了
+death.attack.blackHole=%1$s 被巨大的重力扭曲碾碎了
+death.attack.android_transformation=%1$s 结束了他作为生命体的存在
+
+##########################################################################################################
+# Tasks
+
+task.state.INVALID.name=无效
+task.state.INVALID.description=该任务出现错误.
+task.state.UNKNOWN.name=未知
+task.state.UNKNOWN.description=未知
+task.state.WAITING.name=等待中
+task.state.WAITING.description=等待寻找接收器.
+task.state.QUEUED.name=队列中
+task.state.QUEUED.description=接收器已定位.\n等待过程中.
+task.state.PROCESSING.name=处理中
+task.state.PROCESSING.description=等待加工结束.
+task.state.FINISHED.name=完成
+task.state.FINISHED.description=任务已完成.
+
+task.store_pattern.state.WAITING.description=搜索模式存储空间.
+task.store_pattern.state.QUEUED.description=队列中.\n等待过程中.
+task.store_pattern.state.PROCESSING.description=正在存储物品模式.
+task.store_pattern.state.FINISHED.description=成功存储物品模式.
+
+task.replicate_pattern.state.WAITING.description=搜索可用重组仓.
+
+info.mo.updater.download=下载
+info.mo.updater.hover=点击下载最新版本.
+
+##########################################################################################################
+# Config
+config.machine_options.name=机器
+config.world_gen.name=世界生成
+config.matter_network.name=物质网络
+config.matter_registry.name=物质注册
+config.matter_registry.item_overrides.name=重写
+config.matter_registry.new_items.name=最新
+config.matter_registry.item_blacklist.name=黑名单
+config.spawn_ores.name=矿物生成
+config.client.name=客户端选项
+config.server.name=服务器选项
+config.starmap.name=星图选项
+config.ore_gen_blacklist.name=矿物黑名单
+config.abilities.name=机器人能力
+config.entities.name=生物
+config.debug.name=Debug
+config.android_hud.name=机器人HUD
+config.android_hud.stats.position=状态位置
+config.android_hud.bionicStats.position=仿生能力位置
+config.android_hud.minimap.position=小地图位置
+config.android_hud.color=HUD颜色
+config.android_hud.opacity=HUD透明度
+
+##########################################################################################################
+# Chat Alerts
+
+alert.no_rights=无权访问 $0
+alert.no_access_default=访问被拒绝 $0
+alert.not_android=检测到生物实体! 拒绝访问!
+alert.no_rights.break=只有拥有者可以破坏 $0
+alert.no_rights.dismantle=只有拥有者可以拆除 $0
+alert.new_update=有新版本可用!
+alert.starmap.ship_arrive=§3%1$s &r 已经到达 §3%1$s!
+alert.starmap.on_build=§3%1$s §r 已在 §3%2$s§r 建立!
+
+#############################################################################################################
+# Enchantments
+
+enchantment.matteroverdrive.weapon.damage=超频
+
+###############################################################################################################
+# Fluids
+fluid.matter_plasma.name=等离子物质
+
+##########################################################################################################
+# Guides
+guide.group.machines.name=机器
+guide.group.ore.name=矿物
+guide.group.matter.name=物质
+guide.group.matter_network.name=网络
+guide.group.weapons.name=武器
+guide.group.parts.name=部件
+guide.group.items.name=物品
+guide.group.power.name=能源
+guide.group.blocks.name=方块
+guide.group.drinks.name=饮品
+guide.group.food.name=食物
+
+guide.entry.matter_fail.name=物质重组失败
+guide.entry.matter_plasma.name=等离子物质
+guide.entry.matter_transport.name=物质传输
+guide.entry.weapon.modules.barrels.name=武器枪管
+guide.entry.weapon.modules.colors.name=武器颜色
+guide.entry.android.pills.name=药片
+guide.entry.android.parts.name=残暴机器人部件
+guide.entry.fusion_reactor.name=聚变反应堆
+guide.entry.batteries.name=能量单元
+guide.entry.food.name=食物
+guide.entry.drinks.name=饮品
+guide.entry.upgrades.name=升级
+
+###############################################################################################################
+# modifiers
+
+modifier.bionic.max_health=生命上限
+modifier.bionic.glitch_time=Glitch Time
